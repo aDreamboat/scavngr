@@ -1,7 +1,6 @@
 import { NgModule }           from '@angular/core';
 import { CommonModule }       from '@angular/common';
-
-import { NgbModule }          from '@ng-bootstrap/ng-bootstrap';
+import { MaterialModule }  from '@angular/material';
 
 import { HomeComponent }          from './home.component';
 import { HomeRoutingModule }      from './home-routing.module';
@@ -11,8 +10,8 @@ import { ProfileBadgeComponent }  from './profile-badge.component';
 
 @NgModule({
   imports: [
+    MaterialModule,
     CommonModule,
-    NgbModule,
     HomeRoutingModule,
     ScavngrCommonModule
   ],

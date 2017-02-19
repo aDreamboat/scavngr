@@ -1,0 +1,6 @@
+.app-title {
+  font-size: larger;
+  font-weight: bold; }
+
+.fill-remaining-space {
+  flex: 1 1 auto; }

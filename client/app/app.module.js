@@ -10,20 +10,19 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
-//import { CommonModule }     from '@angular/common';
-var ng_bootstrap_1 = require('@ng-bootstrap/ng-bootstrap');
+var material_1 = require('@angular/material');
 var app_component_1 = require('./app.component');
 var app_routing_module_1 = require('./app-routing.module');
 var home_module_1 = require('./home/home.module');
 var about_module_1 = require('./about/about.module');
-var nav_bar_component_1 = require('./nav-bar.component');
+var nav_bar_component_1 = require('./nav-bar/nav-bar.component');
 var scavngr_common_module_1 = require('./common/scavngr-common.module');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [ng_bootstrap_1.NgbModule, platform_browser_1.BrowserModule, app_routing_module_1.AppRoutingModule, home_module_1.HomeModule, about_module_1.AboutModule, scavngr_common_module_1.ScavngrCommonModule],
+            imports: [material_1.MaterialModule, platform_browser_1.BrowserModule, app_routing_module_1.AppRoutingModule, home_module_1.HomeModule, about_module_1.AboutModule, scavngr_common_module_1.ScavngrCommonModule],
             declarations: [app_component_1.AppComponent, nav_bar_component_1.NavBarComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 

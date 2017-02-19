@@ -10,7 +10,6 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 };
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
-var ng_bootstrap_1 = require('@ng-bootstrap/ng-bootstrap');
 var about_routing_module_1 = require('./about-routing.module');
 var about_component_1 = require('./about.component');
 var AboutModule = (function () {
@@ -20,7 +19,6 @@ var AboutModule = (function () {
         core_1.NgModule({
             imports: [
                 common_1.CommonModule,
-                ng_bootstrap_1.NgbModule,
                 about_routing_module_1.AboutRoutingModule
             ],
             declarations: [
