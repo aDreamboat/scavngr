@@ -8,13 +8,13 @@
 // (imported above). For each palette, you can optionally specify a default, lighter, and darker
 // hue.
 $scavngr-primary: mat-palette($mat-purple);
-$scavngr-accent:  mat-palette($mat-green, A200, A100, A400);
+$scavngr-accent:  mat-palette($mat-green, A400);
 
 // The warn palette is optional (defaults to red).
 $scavngr-warn:    mat-palette($mat-red);
 
 // Create the theme object (a Sass map containing all of the palettes).
-$scavngr-theme: mat-light-theme($scavngr-primary, $scavngr-accent, $scavngr-warn);
+$scavngr-theme: mat-dark-theme($scavngr-primary, $scavngr-accent, $scavngr-warn);
 
 // Include theme styles for core and each component used in your app.
 // Alternatively, you can import and @include the theme mixins for each component

@@ -9,13 +9,14 @@ var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 var core_1 = require('@angular/core');
+var material_1 = require("@angular/material");
 var avatar_component_1 = require('./avatar/avatar.component');
 var ScavngrCommonModule = (function () {
     function ScavngrCommonModule() {
     }
     ScavngrCommonModule = __decorate([
         core_1.NgModule({
-            imports: [],
+            imports: [material_1.MaterialModule],
             exports: [avatar_component_1.AvatarComponent],
             declarations: [avatar_component_1.AvatarComponent],
             providers: [],

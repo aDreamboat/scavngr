@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var common_1 = require('@angular/common');
 var material_1 = require('@angular/material');
+var flex_layout_1 = require('@angular/flex-layout');
 var home_component_1 = require('./home.component');
 var home_routing_module_1 = require('./home-routing.module');
 var scavngr_common_module_1 = require('./../common/scavngr-common.module');
@@ -22,6 +23,7 @@ var HomeModule = (function () {
     HomeModule = __decorate([
         core_1.NgModule({
             imports: [
+                flex_layout_1.FlexLayoutModule,
                 material_1.MaterialModule,
                 common_1.CommonModule,
                 home_routing_module_1.HomeRoutingModule,

@@ -11,6 +11,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var material_1 = require('@angular/material');
+var flex_layout_1 = require('@angular/flex-layout');
 var app_component_1 = require('./app.component');
 var app_routing_module_1 = require('./app-routing.module');
 var home_module_1 = require('./home/home.module');
@@ -22,7 +23,7 @@ var AppModule = (function () {
     }
     AppModule = __decorate([
         core_1.NgModule({
-            imports: [material_1.MaterialModule, platform_browser_1.BrowserModule, app_routing_module_1.AppRoutingModule, home_module_1.HomeModule, about_module_1.AboutModule, scavngr_common_module_1.ScavngrCommonModule],
+            imports: [material_1.MaterialModule, flex_layout_1.FlexLayoutModule, platform_browser_1.BrowserModule, app_routing_module_1.AppRoutingModule, home_module_1.HomeModule, about_module_1.AboutModule, scavngr_common_module_1.ScavngrCommonModule],
             declarations: [app_component_1.AppComponent, nav_bar_component_1.NavBarComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
